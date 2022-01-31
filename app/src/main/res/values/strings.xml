@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Addition</string>
+    <string name="ajit">Hello Ajit !</string>
+    <string name="new_msg">Goodbye Ajit!</string>
+</resources>
