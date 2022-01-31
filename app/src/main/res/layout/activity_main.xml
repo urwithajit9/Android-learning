@@ -86,15 +86,59 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <Button
-        android:id="@+id/add"
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/add_label"
         android:layout_gravity="center"
-        android:layout_margin="32dp"
-        android:textSize="24sp"
+        android:orientation="vertical">
+            <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_label"
+            android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+            android:textSize="24sp"
          />
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sub_label"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:textSize="24sp"
+            />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/multiply_label"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:textSize="24sp"
+            />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/divide_label"
+            android:layout_gravity="center"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:textSize="24sp"
+            />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 

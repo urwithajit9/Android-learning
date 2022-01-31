@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Addition</string>
+    <string name="app_name">Calculate</string>
     <string name="number1_prompt">Enter First Number</string>
     <string name="number2_prompt">Enter First Number</string>
     <string name="number_label">First Number</string>
@@ -7,5 +7,8 @@
     <string name="result_label">Result</string>
     <string name="result_hint">This will show total</string>
     <string name="add_label">Addition</string>
+    <string name="sub_label">Subtract</string>
+    <string name="multiply_label">Multiply</string>
+    <string name="divide_label">Divide</string>
 
 </resources>
