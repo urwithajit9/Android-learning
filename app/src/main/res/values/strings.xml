@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Addition</string>
-    <string name="ajit">Hello Ajit !</string>
-    <string name="new_msg">Goodbye Ajit!</string>
+    <string name="number1_prompt">Enter First Number</string>
+    <string name="number2_prompt">Enter First Number</string>
+    <string name="number_label">First Number</string>
+    <string name="number2_label">Second Number</string>
+    <string name="result_label">Result</string>
+    <string name="result_hint">This will show total</string>
+    <string name="add_label">Addition</string>
+
 </resources>
